@@ -26,7 +26,7 @@ public class Siakad09 {
         System.out.print("Masukkan nilai UAS: ");
         nilaiUas = sc.nextDouble();
 
-    nilaiAkhir = (nilaiKuis*20/200+ nilaiTugas*15/100 + nilaiUts*30/100 + nilaiUas*35/100)/3;
+    nilaiAkhir = (nilaiKuis*20/200+ nilaiTugas*15/100 + nilaiUts*30/100 + nilaiUas*35/100);
 
         System.out.println("Mahasiswa dengan nama: " + nama + "\nNIM: " + nim);
         System.out.println("Kelas: " + kelas + "\nAbsen: " + absen);
